@@ -9,43 +9,43 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./nonmobile.css">
     <link href="./download/maestro.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@900&family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
+    <script src="./hamburger.js"></script>
     <title>Maestro.css</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <div class="navbar__title"><a href="#">Maestro<span>.css</span></a></div>
-            <ul class="navbar__menu">
-                <li><a href="#headings" class="navbar__btn">Headings</a></li>
-                <li><a href="#text" class="navbar__btn">Text</a></li>
-                <li><a href="#list" class="navbar__btn">Lists</a></li>
-                <li><a href="#table" class="navbar__btn">Table</a></li>
-                <li><a href="#alerts" class="navbar__btn">Alerts</a></li>
-                <li><a href="#buttons" class="navbar__btn">Buttons</a></li>
-                <li><a href="#buttons" class="navbar__btn">Gallery</a></li>
-                <li><a href="#code" class="navbar__btn">Code</a></li>
+        <div class="hamburger-row">
+            <a href="javascript:void(0)" class="hamburger hamburger-btn hamburger-zone">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="hamburger__logo"><a href="#">Maestro<span>.css</span></a></div>
+        <nav class="hamburger-nav hamburger-zone">
+            <ul>
+                <li class="hamburger_text"><a class="hamburger-btn" href="#headings">Headings</a></li>
+                <li class="hamburger_text"><a class="hamburger-btn" href="#text">Text</a></li>
+                <li class="hamburger_text"><a class="hamburger-btn" href="#list">Lists</a></li>
+                <li class="hamburger_text"><a class="hamburger-btn" href="#table">Table</a></li>
+                <li class="hamburger_text"><a class="hamburger-btn" href="#alerts">Alerts</a></li>
+                <li class="hamburger_text"><a class="hamburger-btn" href="#buttons">Buttons</a></li>
+                <li class="hamburger_text"><a class="hamburger-btn" href="#buttons">Gallery</a></li>
+                <li class="hamburger_text"><a class="hamburger-btn" href="#code">Code</a></li>
             </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
         </nav>
     </header>
 
     <main>
-        <section class="first">
-            <h1>Welcome to <span class="typing"></span></h1>
-            <div class="theme-switch-wrapper">
-                <label class="theme-switch" for="check-btn">
-                    <input type="checkbox" id="check-btn" class="check-btn" />
-                    <div class="slider round"></div>
-                </label>
-                <span class="text-paragraph">Dark Mode</span>
-            </div>
-        </section>
-
+        
         <section>
             <p>Maestro is a free typography CSS library. It was created for a school project.
                 You don't need to make new CSS file every time you start new project. Maestro helps you style your headlines, special text markups, images, lists, basic tables, buttons, alerts and more. It's responsible and cross-browser friendly.</p>

@@ -1,0 +1,171 @@
+
+.header__top{
+    background-color: #000000;
+    display: flex;
+    position: relative;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+.hamburger__logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a.hamburger-btn:hover {
+    color: #000;
+}
+
+body{
+    font-family: 'Roboto'
+}
+
+a.header__top--nonactive {
+    margin-right: 0.75em;
+}
+
+.header__top a {
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+
+a.header__top--active {
+    position: absolute;
+}
+
+.header__top a, .hamburger-nav a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.header__top a{
+    color: #fff;
+}
+
+.hamburger-nav a{
+    color: black;
+}
+
+a.header__top--active::before {
+    content: url(../MULTITEST/ikona_ucet.svg);
+    padding-right: 0.5em;
+}
+
+a.header__top--active {
+    position: absolute;
+    display: flex;
+}
+
+.uvodka__text2, .uvodka__text1 {
+    position: absolute;
+    bottom: 3rem;
+    right: 0;
+    color: #fff;
+    text-align: right;
+}
+
+.hamburger {
+    width: 60px;
+    height: 45px;
+    position: relative;
+}
+  
+.hamburger span {
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background: #000000;
+    border-radius: 4.5px;
+    left: 0;
+}
+
+.hamburger span:nth-child(1) { top: 6px; }
+.hamburger span:nth-child(2) { top: 20px; }
+.hamburger span:nth-child(3) { bottom: 6px; }
+
+body {
+    margin: 0;
+}
+.hamburger-row {
+    padding-right: calc(100%/20);
+    padding-bottom: 1em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+.hamburger {
+    display: block;
+}
+
+.hamburger-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.hamburger-nav li {
+    display: block;
+}
+
+.hamburger__logo {
+    position: absolute;
+}
+
+header{
+    position: relative;
+    padding-bottom: 3rem;
+    margin-bottom: 6rem;
+}
+
+a.hamburger-btn {
+    text-decoration: none;
+}
+
+.hamburger__logo {
+    font-size: 1.3rem;
+}
+
+.hamburger-nav a {
+    color: rgb(255, 255, 255);
+}
+
+a.button.btn-primary {
+    background-color: #006B38FF;
+    padding: 0.25rem;
+    border-radius: 5%;
+    color: #fff;
+    text-decoration: none;
+}
+
+a.button.btn-primary:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #006B38FF;
+}
+
+code {
+    background-color: #d5d5d5;
+    padding: 0.2rem;
+}
+
+blockquote p {
+    background-color: #d5d5d5;
+    padding: 0.2rem;
+}
+
+blockquote .author {
+    font-weight: bolder;
+}
+
+blockquote {
+    border-left: 1px solid #000;
+}
+
+ul ul li, ol ol li {
+    margin: 0.5rem 0;
+}
+
+ol li{
+    margin-bottom: .8rem;
+}

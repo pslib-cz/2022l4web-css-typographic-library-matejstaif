@@ -1,0 +1,165 @@
+@media only screen and (min-width: 50px) and (max-width: 1000px){
+    .header__top{
+        padding-left: 8%;
+    }
+    
+    .hamburger__logo a {
+        color: rgb(0, 0, 0);
+    }
+
+    .uvodka__text2, .uvodka__text1{
+        padding-right: 8%;
+    }
+
+    a.header__top--active {
+        right: 8%;
+    }
+
+    .header__top a{
+        font-size: .5em;
+    }
+
+    h3.uvodka__text2 {
+        font-size: 1em;
+    }
+
+    h1.uvodka__text1 {
+        font-size: 2em;
+    }
+
+    .hamburger-nav {
+        position: absolute;
+        left: -100%;
+        width: 100%;
+        top: 134px;
+        box-sizing: border-box;
+        transition: left ease-in-out .33s;
+        background-color: #006B38FF;
+        z-index: 1;
+        padding-bottom: 100%;
+    }
+
+    .hamburger-nav li{
+        padding-top: 2vh;
+        font-size: 1.25em;
+    }
+
+    .hamburger.active span {
+        transition: transform ease-in-out .33s;
+    }
+
+    .active span:nth-child(1){
+        transform: rotate(135deg);
+        top: 19px;
+    }
+  
+    .active span:nth-child(2){
+        transform: rotate(45deg);
+    }
+  
+    .active span:nth-child(3){
+        transform: rotate(135deg);
+        top: 19px;
+    }
+
+    .hamburger-nav.active {
+        left: 0;
+    }
+
+    .hamburger__content a{
+        color: #fff;
+    }
+
+    .hamburger-row {
+        position: absolute;
+        right: 4%;
+        top: 51px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hamburger-nav li, .hamburger__logo{
+        padding-left: 8.5%;
+    }
+
+    .hamburger__logo{
+        padding-top: 4rem;
+    }
+
+    main {
+        padding: 0 8% 0 8%;
+    }
+
+    blockquote {
+        padding-left: .5em;
+    }
+
+   
+
+}
+
+@media only screen and (min-width: 1000px){
+    .header__top, .hamburger__logo{
+        padding-left: 18%;
+    }
+
+    blockquote {
+        padding-left: 1em;
+    }
+
+    .hamburger__logo span {
+        color: #fff;
+    }
+
+    .hamburger__logo a{
+        color: #000;
+    }
+
+    main {
+        padding: 0 18% 0 18%;
+    }
+    
+    a.header__top--active {
+        right: 18%;
+    }
+
+    .header__top a{
+        font-size: .75em;
+    }
+
+    .uvodka__text2, .uvodka__text1{
+        padding-right: 18%;
+    }
+
+    .hamburger-row {
+        display: none;
+    }
+
+    .hamburger-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hamburger_text a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .hamburger_text--active a{
+        color: #0078EF;
+    }
+
+    .hamburger-nav {
+        position: absolute;
+        right: 18%;
+    }
+
+    .hamburger-nav a {
+        padding-left: 0.5em;
+    }
+
+    header{
+        padding-top: 2rem;
+        background: #006B38FF;
+    }
+}
