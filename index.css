@@ -169,3 +169,80 @@ ul ul li, ol ol li {
 ol li{
     margin-bottom: .8rem;
 }
+
+table {
+    width: 100%;
+    background-color: #dfdfdf;
+    border: 2px solid #4caf50;
+}
+
+thead {
+    background-color: beige;
+}
+
+span.btn-close {
+    margin-right: 2rem;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+}
+
+.message--warning {
+    background-color: #ffc107;
+}
+
+.message--succes {
+    background-color: #8bc34a;
+}
+
+.message--basic {
+    background-color: #ff5722;
+}
+
+.message {
+    margin: 0.75rem 0;
+    padding: 0 1rem;
+}
+
+button.btn-warning {
+    background-color: crimson;
+    color: #fff;
+}
+
+button.btn-warning:hover {
+    background-color: rgb(43, 220, 20);
+    color: rgb(98, 0, 255);
+}
+
+button.btn-disabled {
+    background-color: cornflowerblue;
+    border-radius: 15%;
+}
+
+button.btn-disabled:hover {
+    background-color: rgb(0, 88, 252);
+}
+
+button.btn-noclick {
+    background-color: burlywood;
+
+}
+
+button.btn-noclick:hover {
+    background-color: rgb(255, 164, 46);
+}
+
+button.btn-primary {
+    background-color: beige;
+}
+
+button.btn-primary:hover {
+    background-color: rgb(255, 255, 100);
+}
+
+button {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
