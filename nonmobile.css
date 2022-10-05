@@ -86,7 +86,7 @@
         padding-top: 4rem;
     }
 
-    main {
+    main, footer {
         padding: 0 8% 0 8%;
     }
 
@@ -94,8 +94,9 @@
         padding-left: .5em;
     }
 
-   
-
+    .box--smal {
+        padding-top: 1rem;
+    }
 }
 
 @media only screen and (min-width: 1000px){
@@ -107,6 +108,15 @@
         padding-left: 1em;
     }
 
+    .box--smal {
+        width: 70%;
+    }
+    
+    footer.box--half {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .hamburger__logo span {
         color: #fff;
     }
@@ -115,7 +125,7 @@
         color: #000;
     }
 
-    main {
+    main, footer {
         padding: 0 18% 0 18%;
     }
     
@@ -161,5 +171,15 @@
     header{
         padding-top: 2rem;
         background: #006B38FF;
+    }
+
+    li.hamburger_text {
+        padding-right: 0.2rem;
+    }
+}
+
+@media only screen and (min-width: 1460px){
+    li.hamburger_text {
+        margin-right: 1.25rem;
     }
 }

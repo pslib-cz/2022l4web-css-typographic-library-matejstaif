@@ -166,7 +166,7 @@ ul ul li, ol ol li {
     margin: 0.5rem 0;
 }
 
-ol li{
+ol li, ul li{
     margin-bottom: .8rem;
 }
 
@@ -208,25 +208,31 @@ span.btn-close {
 
 button.btn-warning {
     background-color: crimson;
+    border: 1px solid black;
     color: #fff;
 }
 
 button.btn-warning:hover {
     background-color: rgb(43, 220, 20);
-    color: rgb(98, 0, 255);
+    color: rgb(0, 0, 0);
+    padding: .5rem 1.25rem;
+    transition: ease-in-out .5s;
 }
 
 button.btn-disabled {
     background-color: cornflowerblue;
-    border-radius: 15%;
+    border-radius: .25rem;
+    border: 1px solid black;
 }
 
 button.btn-disabled:hover {
     background-color: rgb(0, 88, 252);
+    color: #fff;
 }
 
 button.btn-noclick {
     background-color: burlywood;
+    border: 1px solid black;
 
 }
 
@@ -236,6 +242,7 @@ button.btn-noclick:hover {
 
 button.btn-primary {
     background-color: beige;
+    border: 1px solid black;
 }
 
 button.btn-primary:hover {
@@ -245,4 +252,38 @@ button.btn-primary:hover {
 button {
     padding: 0.5rem;
     margin-right: 0.5rem;
+}
+
+.box--background-color {
+    background-color: #e7e7e7;
+    padding: 0.1rem 0.5rem;
+}
+
+.pre-wrapper {
+    background-color: #cfcfcf;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 1rem;
+}
+
+span.code-punctuation, span.code-class {
+    color: chocolate;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+p.footer__name a, p.footer__email a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer.box--half {
+    padding-top: 1rem;
+    padding-bottom: 9rem;
+}
+
+footer.box--half {
+    margin-top: 3rem;
 }
