@@ -104,6 +104,12 @@
         padding-left: 18%;
     }
 
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
     blockquote {
         padding-left: 1em;
     }
