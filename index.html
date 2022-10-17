@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@900&family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
     <script src="./hamburger.js"></script>
+    <script defer src="./hidden.js"></script>
     <title>Maestro.css</title>
 </head>
 
@@ -60,12 +61,12 @@
                 structure. In the code sample below you can see how to implement heading in your code.</p>
             <div>
                 <div class="box box--background-color">
-                    <h2 class="text-h1">Heading <span class="heading__info">#h1</span></h2>
-                    <h2>Heading <span class="heading__info">#h2</span></h2>
-                    <h3>Heading <span class="heading__info">#h3</span></h3>
-                    <h4>Heading <span class="heading__info">#h4</span></h4>
-                    <h5>Heading <span class="heading__info">#h5</span></h5>
-                    <h6>Heading <span class="heading__info">#h6</span></h6>
+                    <h2 class="text-h1 hidden">Heading <span class="heading__info">#h1</span></h2>
+                    <h2 class="hidden">Heading <span class="heading__info">#h2</span></h2>
+                    <h3 class="hidden">Heading <span class="heading__info">#h3</span></h3>
+                    <h4 class="hidden">Heading <span class="heading__info">#h4</span></h4>
+                    <h5 class="hidden">Heading <span class="heading__info">#h5</span></h5>
+                    <h6 class="hidden">Heading <span class="heading__info">#h6</span></h6>
                 </div>
             </div>
         </section>
@@ -94,7 +95,7 @@
                         universe.</q> Albert Einstein</p>
                 <h3>Blockquote</h3>
                 <figure>
-                    <blockquote>
+                    <blockquote class="hidden">
                         <p>Your website is the center of your digital eco-system, like a brick and mortar location, the
                             experience matters once a customer enters, just as much as the perception they have of you
                             before they walk through the door.</p>
@@ -103,7 +104,7 @@
                     </blockquote>
                 </figure>
                 <figure>
-                    <blockquote>
+                    <blockquote class="hidden">
                         <p>I am another type of church. Religion is more huger then it was.</p>
                         <figcaption><span class="author">Master Ivo</span> Teacher PSLIB, English lesson L4
                         </figcaption>
@@ -120,22 +121,22 @@
                     together with the <code>&lt;li&gt;</code> tag to create unordered lists.</p>
                 <h3>List of WW2 wars</h3>
                 <ul>
-                    <li>French offensive into Germany: September 1939</li>
-                    <li>Operation Weserübung: April–June 1940
+                    <li class="hidden">French offensive into Germany: September 1939</li>
+                    <li class="hidden">Operation Weserübung: April–June 1940
                         <ul>
                             <li>German Invasion of Denmark</li>
                             <li>German invasion of Norway</li>
                         </ul>
                     </li>
-                    <li>Battle of the Netherlands: May 1940</li>
-                    <li>Battle of Belgium: May 1940</li>
-                    <li>Battle of France: May – June 1940
+                    <li class="hidden">Battle of the Netherlands: May 1940</li>
+                    <li class="hidden">Battle of Belgium: May 1940</li>
+                    <li class="hidden">Battle of France: May – June 1940
                         <ul>
                             <li>Battle of Boulogne</li>
                         </ul>
                     </li>
-                    <li>Battle of Britain: July – October 1940</li>
-                    <li>Operation Overlord: June – August 1944
+                    <li class="hidden">Battle of Britain: July – October 1940</li>
+                    <li class="hidden">Operation Overlord: June – August 1944
                         <ul>
                             <li>Operation Jupiter</li>
                         </ul>
@@ -148,8 +149,8 @@
                     <code>&lt;li&gt;</code> tag is used to define each list item.</p>
                 <h3>Recipe - Croque Madame with Canadian Bacon</h3>
                 <ol>
-                    <li>Prepare baking sheet with parchment paper or silpat liner, set aside. Preheat broiler.</li>
-                    <li>In medium sized skillet add butter and melt over medium heat.
+                    <li class="hidden">Prepare baking sheet with parchment paper or silpat liner, set aside. Preheat broiler.</li>
+                    <li class="hidden">In medium sized skillet add butter and melt over medium heat.
                         <ol>
                             <li>Once butter is melted, whisk in flour until mixture is smooth and there are no clumps.
                             </li>
@@ -158,20 +159,20 @@
                                 kosher salt and ground pepper. </li>
                         </ol>
                     </li>
-                    <li>Remove from heat and whisk in 1/2 cup swiss cheese, fresh thyme leaves, grated nutmeg, kosher
+                    <li class="hidden">Remove from heat and whisk in 1/2 cup swiss cheese, fresh thyme leaves, grated nutmeg, kosher
                         salt and ground pepper. </li>
-                    <li>Top 2 slices of bread with 4 slices Canadian Bacon and 2 tablespoons shredded swiss cheese.
+                    <li class="hidden">Top 2 slices of bread with 4 slices Canadian Bacon and 2 tablespoons shredded swiss cheese.
                     </li>
-                    <li>Place bread slices on baking sheet. Broil in oven until cheese is melted, browned and bubbly.
+                    <li class="hidden">Place bread slices on baking sheet. Broil in oven until cheese is melted, browned and bubbly.
                     </li>
-                    <li>Remove from oven and top with remaining slice of bread, cheese sauce side down.
+                    <li class="hidden">Remove from oven and top with remaining slice of bread, cheese sauce side down.
                         <ol>
                             <li>Top each sandwich with equal parts swiss cheese sauce and remaining shredded swiss
                                 cheese. </li>
                             <li>Place back under broiler and cook until cheese is fully melted and bubbly.</li>
                         </ol>
                     </li>
-                    <li>Enjoy food!</li>
+                    <li class="hidden">Enjoy food!</li>
                 </ol>
             </div>
             </div>
@@ -214,15 +215,15 @@
         <section id="alerts">
             <h2>Alerts</h2>
             <div class="box">
-                <div class="message message--warning">
+                <div class="message message--warning hidden">
                     <span class="btn-close" onclick="this.parentElement.style.display='none';">x</span>
                     <p>This is a warning alert box that will disappear when you click on close button.</p>
                 </div>
-                <div class="message message--succes">
+                <div class="message message--succes hidden">
                     <span class="btn-close" onclick="this.parentElement.style.display='none';">x</span>
                     <p>This is a succes alert box that will disappear when you click on close button.</p>
                 </div>
-                <div class="message message--basic">
+                <div class="message message--basic hidden">
                     <span class="btn-close" onclick="this.parentElement.style.display='none';">x</span>
                     <p>This is a normal alert box that will disappear when you click on close button.</p>
                 </div>
@@ -237,42 +238,6 @@
                 <button class="btn-noclick">Tlačítko</button>
                 <button class="btn-disabled">Tlačítko</button>
                 <button class="btn-warning">Tlačítko</button>
-            </div>
-        </section>
-
-        <section id="gallery">
-            <h2>Pictures</h2>
-            <p>The <code>&lt;img&gt;</code> tag is used to embed an image in an HTML page. Images are not technically
-                inserted into a
-                web page; images are linked to web pages. The <img> tag creates a holding space for the referenced
-                image.</p>
-            <h3>Single Image</h3>
-            <figure class="gallery__block">
-                <a href="./img/goat.jpg">
-                    <img src="./img/goat.jpg" alt="Fk jablonec football pilař venca">
-                    <figcaption class="gallery__caption">Football goat</figcaption>
-                </a>
-            </figure>
-            <h3>Gallery with hover effect</h3>
-            <div class="gallery">
-                <figure class="gallery__block">
-                    <a href="./img/hasbi1.jpeg">
-                        <img src="./img/hasbi1.jpeg" alt="Hasbulla with sunset">
-                        <figcaption class="gallery__caption">Photo: Hasbulla Selfie</figcaption>
-                    </a>
-                </figure>
-                <figure class="gallery__block">
-                    <a href="./img/hasbi2.jpg">
-                        <img src="./img/hasbi2.jpg" alt="Hasbulla model portrait">
-                        <figcaption class="gallery__caption">Hasbi with his car</figcaption>
-                    </a>
-                </figure>
-                <figure class="gallery__block">
-                    <a href="./img/hasbi4.jpg">
-                        <img src="./img/hasbi4.jpg" alt="Hasbulla fight Abdu rozik mma box">
-                        <figcaption class="gallery__caption">King Hasbulla fight AbduRozik</figcaption>
-                    </a>
-                </figure>
             </div>
         </section>
 
